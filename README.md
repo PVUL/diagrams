@@ -14,8 +14,8 @@ Tip: Run `plantuml -o assets -checkmetadata -tsvg README.md` to generate the ref
 
 Code:
 
-```plantumlcode assets/README.svg
-@startjson
+```plantumlcode
+@startjson readme-diagram
 {
    "fruit":"Apple",
    "size": "Large",
@@ -26,19 +26,8 @@ Code:
 ```
 
 Output:
-<div hidden>
-```plantuml 
-@startjson README-diagram
-{
-   "fruit":"Apple",
-   "size": "Large",
-   "color": ["Red", "Green"]
-}
-@endjson
-```
-</div>
 
-![](assets/README-diagram.svg)
+![](assets/readme-diagram.svg)
 
 *NOTE: GitHub doesn't support PlantUML natively. Use the above-mentioned "Generate URLs for Current File Diagrams" or "Generate URL for Current Diagram" commands to generate diagrams and use them in a README markdown file.*
 
