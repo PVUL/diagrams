@@ -1,0 +1,18 @@
+@startuml my uml
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class MyClass {
+  int count
+  int number
+  string name
+}
+
+class SecondClass {
+  int aSecretField
+  void secretMethod()
+}
+
+MyClass <|-- SecondClass
+
+@enduml

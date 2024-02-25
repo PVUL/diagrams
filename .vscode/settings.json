@@ -1,0 +1,4 @@
+{
+  "plantuml.render": "Local",
+  "plantuml.server": "http://www.plantuml.com/plantuml",
+}

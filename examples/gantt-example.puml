@@ -1,0 +1,8 @@
+@startgantt gantt example
+Project starts 2024-03-01
+[Task 1] as [T1] lasts 10 days
+[Task 2] as [T2] lasts 5 days
+[T2] starts at [T1]'s end 
+[Task 3] as [T3] lasts 5 days
+[T3] starts at [T2]'s end
+@endgantt
